@@ -1,0 +1,5 @@
+<h1>Home Page</h1>
+
+{% for category in categories %}
+	<p><a href="{{ category.my_url }}">{{ category.title }}</a></p>
+{% endfor %}

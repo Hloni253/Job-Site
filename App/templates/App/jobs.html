@@ -1,0 +1,6 @@
+<h1>{{ category.title }} Page</h1>
+
+
+{% for job in category.jobs %}
+	<p><a href="//{{ job.job_url }}" target="_blank">{{ job.title }}</a></p>
+{% endfor %}
